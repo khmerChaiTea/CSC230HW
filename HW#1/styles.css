@@ -1,0 +1,49 @@
+#intro {
+    background-color: yellow;
+    font-style: italic;
+    color: yellow;
+  }
+  
+  #intro p, #intro img, #intro strong {
+    color: yellow;
+    background-color: yellow;
+    font-size: 25px;
+  }
+  
+  #intro img {
+    width: 200px;
+    height: auto;
+    border: 2px solid yellow;
+  }
+  
+  #intro ul {
+    background-color: yellow;
+  }
+  
+  #intro ul li {
+    color: red;
+    background-color: red;
+  }
+  
+  #main {
+    background-color: red;
+    padding: 20px;
+  }
+  
+  #main h2 {
+    color: red;
+    background-color: red;
+  }
+  
+  #main p {
+    color: yellow;
+    background-color: yellow;
+    font-size: 25px;
+  }
+  
+  p {
+    color: yellow;
+    background-color: yellow;
+    font-size: 25px;
+  }
+  
