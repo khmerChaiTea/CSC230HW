@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sample HTML/CSS</title>
+    <style>
+      /* h2 elements in the “intro” section */
+      #intro h2 {
+        color: blue;
+      }
+      /* strong elements in the “main” section */
+      #main strong {
+        font-weight: bold;
+        color: purple;
+      }
+      .special {
+        color: yellow;
+        font-style: italic;
+      }
+      body :not(.special) {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Header 1</h1>
+    <div id="main">
+      <p class="special">
+        This is a paragraph inside a div with id="main."
+        <img src="blackgoose.png" alt="Image of Black goose" />
+        This is <strong>a strong element in the div id=main section.</strong>
+      </p>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+      </ul>
+    </div>
+    <div id="intro">
+      <h2>Header 2 part a1</h2>
+      <p>This is a paragraph inside a div with id="intro."</p>
+      <h2>Header 2 part a2</h2>
+      <p class="special">
+        This is <strong>a strong element in the div id=intro section.</strong>
+      </p>
+    </div>
+    <p></p>
+  </body>
+</html>
